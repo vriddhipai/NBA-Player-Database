@@ -1,0 +1,5 @@
+CREATE A CONNECTION:
+
+username: ubuntu
+password: Dota2009
+Host Name: ec2-34-218-243-78.us-west-2.compute.amazonaws.com

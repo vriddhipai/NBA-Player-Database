@@ -1,0 +1,168 @@
+
+create table Play
+(
+player_id integer,
+player_name varchar(250),
+team_abbreviation varchar(250),
+team_name varchar(250),
+game_id integer,
+matchup varchar(250),
+WL varchar(250),
+min# integer,
+fgm integer,
+fga integer,
+fg_pct float(53),
+fg3m integer,
+fg3a integer,
+fg3_pct float(53),
+ftm integer,
+fta integer,
+ft_pct float(53),
+oreb integer,
+dreb integer,
+reb integer, 
+ast integer,
+stl integer,
+blk integer,
+tov integer, 
+pf integer,
+pts integer, 
+plus_minus integer,
+season_type varchar(25),
+season integer,
+primary key (player_name,game_id));
+
+
+create table Player
+(
+player_name varchar(250) not null,
+All_NBA INTEGER,
+All_Star INTEGER,
+Draft_Yr INTEGER,
+Pk integer, 
+Team varchar(250),
+College varchar(250),
+Yrs INTEGER,
+Games INTEGER,
+Minutes_Played INTEGER,
+PTS INTEGER,
+TRB INTEGER,
+AST INTEGER,
+FG_Percentage float(53),
+TP_Percentage float(53),
+FT_Percentage float(53),
+Minutes_per_Game float(53),
+Points_per_Game float(53),
+TRB_per_game float(53),
+Assits_per_Game float(53),
+Win_Share float(53),
+WS_per_game float(53),
+BPM float(53),
+VORP float(53),
+attend_college INTEGER,
+primary key (player_name));
+
+
+create table season_data
+(
+season integer,
+player varchar(250),
+pos varchar(250),
+age integer,
+tm varchar(250),
+G integer,
+GS integer,
+MP integer,
+per_p float(53),
+TS_PCT float(53),
+three_PAr float(53),
+FTr float(53),
+ORB_per float(53),
+DRB_per float(53),
+RB_per float(53),
+ast_per float(53),
+stl_per float(53),
+blk_per float(53),
+tov_per float(53),
+usg_per float(53),
+ows float(53),
+dws float(53),
+ws float(53),
+obpm float(53),
+dbpm float(53),
+bpm float(53),
+vorp float(53),
+fg integer,
+fga integer,
+FG_pct float(53),
+p_3 integer,
+p_3a integer,
+p3_pct float(53),
+p_2 integer,
+p_2a integer,
+p2_pct float(53),
+ft integer,
+fta integer,
+ft_pct float(53),
+orb integer,
+drb integer,
+rb integer, 
+ast integer,
+stl integer,
+blk integer,
+tov integer, 
+pf integer,
+pts integer, 
+primary key (season,player,tm));
+
+
+create table Final_and_Mvp
+(
+season integer,
+Western_Champion varchar(250),
+Eastern_Champion varchar(250),
+F_Result varchar(250),
+NBA_Champion varchar(250),
+NBA_Vice_Champion varchar(250),
+Final_Sweep varchar(250),
+MVP_Name varchar(250),
+MVP_Height float(53),
+MVP_Position varchar(250),
+MVP_Team varchar(250),
+MVP_Nationality varchar(250),
+MVP_status varchar(250),
+primary key (season));
+
+
+create table salary
+(
+season varchar(250),
+team varchar(250),
+Salary_Cap varchar(250),
+Total_Salary varchar(250),
+primary key (season,team));
+
+create table ALL_star
+(
+season integer,
+Player varchar(250),
+pos varchar(250),
+HT varchar(250),
+WT varchar(250),
+Team varchar(250),
+Selection_Type varchar(250),
+NBA_Draft_Status varchar(250),
+Nationality varchar(250),
+primary key (season,player));
+
+create table coach
+(
+Birth_Date varchar(250),
+c_Name varchar(250),
+Nationality varchar(250),
+Teams varchar(250),
+Years_in_rule float(53),
+Start_season float(53),
+End_season float(53),
+Num_of_teams float(53),
+primary key (c_Name));

@@ -1,0 +1,23 @@
+the "1995 and 2015" are just for example
+
+What is the win rate of the teams whose everage age of players is above 29 in the last game of back to back games series between 1995 and 2015? what about under 26?
+Are the average career score of high school graduates NBA player higher than the average career score of college graduates NBA player between 1995 and 2015?
+Which players have scored 60 or more in a which match between 1995 and 2015?
+Which players have sent 20 assists or more in which match between 1995 and 2015?
+Which players have got 25 rebound or more in a which match between 1995 and 2015?
+What is the probability that the regular season mvp will win the championship in the selected year range?
+Which state's players have won most championships between 1995 and 2015?
+Which players have been present in all 72 games of a season between 1995 and 2015?
+Which players has won the most championships between 1995 and 2015?
+Which player played the most game between 1995 and 2015?
+Which player has the highest average playing time(min) of a season between 1995 and 2015?
+Which coach has won the most championships between 1995 and 2015?
+Which coach has coached the most teams between 1995 and 2015?
+Which coach wins the most games between 1995 and 2015?
+What is the probability that the highest paid team will win the championship between 1995 and 2015?
+Which team's total salary in which year could make the "Total Salary/Salary Cap" to be biggest?
+Which player's total salary is the highest between 1995 and 2015?
+Which team scored the highest in which game between 1995 and 2015?
+Which player scored the highest in which game between 1995 and 2015?
+Which player has got the most rebounds in which game between 1995 and 2015?
+
